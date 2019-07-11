@@ -11,6 +11,8 @@ class Constants{
   static Color lightBG = Color(0xfffcfcff);
   static Color darkBG = Colors.black;
   static Color ratingBG = Colors.yellow[600];
+  static Color gradientfirst = Color(0xffbf2841);
+  static Color gradientsecond = Color(0xff233b6b);
 
   static ThemeData lightTheme = ThemeData(
     backgroundColor: lightBG,

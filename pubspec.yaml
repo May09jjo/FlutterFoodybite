@@ -35,6 +35,21 @@ dev_dependencies:
 # The following section is specific to Flutter.
 flutter:
 
+
+  fonts: 
+    - family: Exo2
+      fonts:
+        - asset: assets/fonts/exo_2/Exo2-Black.otf
+        - asset: assets/fonts/exo_2/Exo2-BlackItalic.otf
+        - asset: assets/fonts/exo_2/Exo2-Bold.otf
+        - asset: assets/fonts/exo_2/Exo2-ExtraBold.otf
+        - asset: assets/fonts/exo_2/Exo2-ExtraLight.otf
+        - asset: assets/fonts/exo_2/Exo2-Light.otf
+        - asset: assets/fonts/exo_2/Exo2-Medium.otf
+        - asset: assets/fonts/exo_2/Exo2-Regular.otf
+        - asset: assets/fonts/exo_2/Exo2-SemiBold.otf
+        - asset: assets/fonts/exo_2/Exo2-Thin.otf
+
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
@@ -58,6 +73,7 @@ flutter:
     - assets/cm2.jpeg
     - assets/cm3.jpeg
     - assets/cm4.jpeg
+    - assets/logo-copa.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

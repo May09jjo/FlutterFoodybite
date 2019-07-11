@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_foodybite/screens/main_screen.dart';
+import 'package:flutter_foodybite/screens/splash-screen.dart';
 import 'package:flutter_foodybite/util/const.dart';
 
 
@@ -36,7 +37,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       title: Constants.appName,
       theme: isDark ? Constants.darkTheme : Constants.lightTheme,
-      home: MainScreen(),
+      home: SplashScreenPage(),
     );
   }
 }
